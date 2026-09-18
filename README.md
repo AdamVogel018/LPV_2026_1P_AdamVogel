@@ -32,13 +32,11 @@ de la Universidad Nacional de Asuncion, Sede San Lorenzo.
  - typing
 
 **3. Instrucciones para correr el proyecto:**
-  1- Clonar o extraer el proyecto: main.py, simulador_planta.py
+  - Clonar o extraer el proyecto: main.py, simulador_planta.py
   - Crear un entorno virtual (opcional): "python -m venv venv" (en la terminal powershell)
   - Activar el entorno virtual (si creaste el entorno virtual): "python -m venv\Scripts\activate"
   - Instalar las dependencias necesarias: "python -m pip install fastapi uvicorn sqlalchemy pydantic"
   - Ejecutar main.py
-  - En la terminal abierta por main.py, ingresar el comando:
-  --> "python -m uvicorn main:app --reload"
-   (Verificar que el PATH sea correcto al ejecutar el comando, para activar el servidor local)
- (7) Una vez activo el servidor, ejecutar simulador_planta.py en otra terminal de Python.
- (8) Ingresar a "http://localhost:8000/docs" en el navegador de internet.
+  - En la terminal abierta por main.py, ingresar el comando: "python -m uvicorn main:app --reload" (Verificar que el PATH sea correcto al ejecutar el comando, para activar el servidor local)
+  - Una vez activo el servidor, ejecutar simulador_planta.py en otra terminal de Python.
+  - Ingresar a "http://localhost:8000/docs" en el navegador de internet.
