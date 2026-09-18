@@ -36,9 +36,9 @@ por las estaciones de supervisión.
  - typing
 
 **3. Instrucciones para correr el proyecto:**
- (1) Clonar o extraer el proyecto:
+ 3.1. Clonar o extraer el proyecto:
   --> main.py, simulador_planta.py
- (2) Crear un entorno virtual (opcional):
+ 3.2. Crear un entorno virtual (opcional):
   --> "python -m venv venv" (en la terminal powershell)
  (3) (si creaste el entorno virtual) Activar el entorno virtual:
   --> "venv\Scripts\activate" (en la terminal powershell)
